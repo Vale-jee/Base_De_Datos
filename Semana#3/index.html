@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.E.E Sweets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Bienvenidos a J.E.E Sweets</h1>
+        <h2>Pastelería</h2>
+        <h3>Donde la dulzura de tus sueños se hace realidad</h3>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN BONITO -->
+    <nav class="menu-abajo">
+        <a href="#galeria">Galería</a>
+        <a href="#precios">Precios</a>
+        <a href="#sabores">Sabores</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+
+        <!-- GALERÍA -->
+        <section id="galeria">
+            <h2>Galería de Pasteles</h2>
+            <div class="galeria">
+                <img src="assets/img/pastel1.jpg" alt="Pastel decorado 1">
+                <img src="assets/img/pastel2.jpg" alt="Pastel decorado 2">
+                <img src="assets/img/pastel3.jpg" alt="Pastel decorado 3">
+            </div>
+        </section>
+
+        <!-- VIDEO -->
+        <section id="video">
+            <h2>Video Promocional</h2>
+            <video controls>
+                <source src="assets/video/Pasteles.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+            </video>
+        </section>
+
+        <!-- LISTAS DE SABORES -->
+        <section id="sabores">
+            <h2>Sabores Disponibles</h2>
+
+            <article>
+                <h3>Lista de Sabores</h3>
+
+                <div class="listas-container">
+                    <ul>
+                        <li>Chocolate</li>
+                        <li>Vainilla</li>
+                        <li>Red Velvet</li>
+                        <li>Fresa</li>
+                        <li>Limón</li>
+                    </ul>
+                </div>
+
+            </article>
+        </section>
+
+        <!-- TABLA DE PRECIOS -->
+        <section id="precios">
+            <h2>Tabla de Precios</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tamaño</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pequeño</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>Mediano</td>
+                        <td>$18</td>
+                    </tr>
+                    <tr>
+                        <td>Grande</td>
+                        <td>$25</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- FORMULARIO -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Realiza tu consulta o pedido. ¡Estaremos encantados de ayudarte!</p>
+
+            <form>
+                <label>Nombre:</label>
+                <input type="text" placeholder="Tu nombre">
+
+                <label>Correo:</label>
+                <input type="email" placeholder="Tu correo">
+
+                <label>Mensaje:</label>
+                <textarea placeholder="Escribe tu consulta aquí..."></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p>Visita nuestra página oficial:  
+                <a href="https://www.google.com" target="_blank">Hacer clic aquí</a>
+            </p>
+        </section>
+
+        <!-- TEXTO FINAL QUE PEDISTE -->
+        <p class="final-texto">
+            Escoge tu sabor favorito — Selecciona el tamaño — Define el diseño perfecto
+        </p>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p><em>J.E.E Sweets - Endulzando tus mejores momentos</em></p>
+    </footer>
+
+</body>
+</html>
